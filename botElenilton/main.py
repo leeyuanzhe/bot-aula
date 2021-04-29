@@ -12,7 +12,7 @@ while True:
         pyautogui.press('enter')
         variavel = True;
         while variavel == True:
-            print("finalizando em 2 minutos")
+            print("finalizando em ... tempos ")
             time.sleep(10)
             pyautogui.click(pyautogui.locateOnScreen(sair, confidence =0.8))
             while variavel == true:
